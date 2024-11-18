@@ -1,0 +1,27 @@
+Starting job 978241 on c1-17 on fox at Thu Nov 14 12:05:08 CET 2024
+
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+‘WLR074.Wal_mt.realigned.bam HaplotypeCalled’
+Finished running jobs
+
+Job 978241 consumed 0.0 billing hours from project ec34.
+
+Submitted 2024-11-14T12:04:04; waited 1.1 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 hours
+Elapsed wallclock time:   39.0 seconds
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+978241           1            0.0 %  2024-11-14T12:05:07   39.0 s  0
+978241.batch     1      1    96.3 %  2024-11-14T12:05:07   39.0 s  0
+
+Used CPU time:   37.6 CPU seconds
+Unused CPU time: 1.4 CPU seconds
+
+Memory statistics, in MiB:
+ID             Alloc   Usage
+978241        1024.0        
+978241.batch  1024.0   757.3
+
+Job 978241 completed at Thu Nov 14 12:05:46 CET 2024
